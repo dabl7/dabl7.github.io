@@ -1,49 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Dabl's tools</title>
-    <link rel="icon" href="./logo.png" type="image/png">
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f7f7f7;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Roblox build a boat for treasure tools">
+  <meta name="keywords" content="Roblox,BABFT,buildaboat,buildaboatfortreasure,gears,bevel,worm,rack,planetary,inventoryworth,inventory,networth,worth,mech,lambda,walkingmechanism,walking,mecha,robot">
+  <meta name="author" content="dabl7">
+  <title>Dabl's tools</title>
+  <link rel="icon" href="./logo.png" type="image/png">
+  <style>
+    body {
+      margin: 0;
+      background-color:#000000;
+    }
+    
+    header {
+      background-color: #505050;
+      color: white;
+      text-align: center;
+      padding: 2%;
+    }
 
-        .button-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-            width: 80%;
-            max-width: 1200px;
-        }
+    .container {
+      max-width: 50%;
+      margin: 20px auto;
+    }
 
-        .button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-            background-color: #333333;
-            color: white;
-            font-size: 20px;
-            text-align: center;
-            border-radius: 10px;
-        }
-    </style>
+    .box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #353535;
+      padding: 2%;
+      margin-bottom: 2%;
+    }
+    
+    .text {
+      flex: 1;
+      padding-right: 15px;
+    }
+  
+    .text h2 {
+      margin-top: 0;
+      color: #FFFFFF;
+    }
+  
+    .text p {
+      color: #FFFFFF;
+    }
+
+    .white {
+      color:#4848ff;
+    }
+  
+    .box img {
+      width: 25%;
+      height: 25%;
+      object-fit: cover;
+    }
+
+    footer {
+      background-color: #505050;
+      color: white;
+      text-align: center;
+      padding:2%;
+    }
+  </style>
 </head>
-<body style=background-color:#707070>
- <h2>All tools</h2>
-    <div class="button-grid">
-        <a href="https://dabl7.github.io/gears" class="button">Gears calculator</a>
-        <a href="https://dabl7.github.io/networth" class="button">Inventory worth calculator</a>
-        <a href="https://dabl7.github.io/mech" class="button">Full mech calculator</a>
+<body>
+  <header>
+    <h1>All tools</h1>
+  </header>
+    <div class="container">
+      <div class="box">
+        <div class="text">
+          <h2>Gears Calculator</h2>
+          <p>
+            Build these types of gears in build a boat for treasure with this:
+            <br>
+             -spur, worm, bevel, rack, planetary
+            <br>
+            <a class="white" href="https://dabl7.github.io/gears">Gears calculator</a>
+            - (
+            <a class="white" href="https://github.com/dabl7/gears">Source code</a>
+            )
+          </p>
+        </div>
+        <img src="./imggears.png">
+      </div>
+      <div class="box">
+        <div class="text">
+          <h2>Inventory worth calculator</h2>
+          <p>
+            Enter the number for some of your items in build a boat for treasure and find out how much gold your inventory is worth
+            <br>
+            <a class="white" href="https://dabl7.github.io/networth">Inventory worth calculator</a>
+            - (
+            <a class="white" href="https://github.com/dabl7/networth">Source code</a>
+            )
+          </p>
+        </div>
+        <img src="./imginv.png">
+      </div>
+      <div class="box">
+        <div class="text">
+          <h2>Full mech calculator</h2>
+          <p>
+            Pick your size and durability and get instructions for the base of your mech to build in build a boat for treasure
+            <br>
+            <a class="white" href="https://dabl7.github.io/mech">Full mech calculator</a>
+            - (
+            <a class="white" href="https://github.com/dabl7/mech">Source code</a>
+            )
+          </p>
+        </div>
+        <img src="./imgmech.png">
+      </div>
     </div>
+    <footer>
+        <p>
+          <a class="white" href="https://youtube.com/channel/dabl2928">YouTube: dabl2928</a>
+          -
+          <a class="white" href="https://github.com/dabl7">Github: dabl7</a>
+        </p>
+    </footer>
     <script>
-	    //homepage (by @dabl2928 on YouTube)
-	    //vx.x.x - initial (2026 Apr 23)
+	  //homepage (by @dabl2928 on YouTube)
+	  //v1.0.0 - initial (2026 Apr 23)
+      //v1.0.1 - updated (2026 Apr 27)
     </script>
 </body>
 </html>
